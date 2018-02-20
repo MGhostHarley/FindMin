@@ -1,0 +1,1 @@
+I wanted to get a better understanding of functions runtime. So I created two FindMin functions, one that uses nested for loops that has n^2 runtime, and a linear version of FindMin, and tested and printed the results. I also compared the built in python function "min()". It is important to note that min seems to use a linear algorothim also.

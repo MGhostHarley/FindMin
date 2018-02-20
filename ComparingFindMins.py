@@ -51,4 +51,12 @@ def main():
 		end = time.time()
 		print "Size: %d time %f " %(listSize, end-start)
 
+	print "\nThis is the built in min () time testing\n"	
+	for listSize3 in range(1000,10001,1000):
+		alist3 = [randrange(100000) for x in range (listSize3)]
+		start3 = time.time()
+		print min(alist3)
+		end3 = time.time()
+		print "Size: %d time %f " %(listSize3, end3-start3)
+
 main()
